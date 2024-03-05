@@ -1,0 +1,64 @@
+/* cores e fontes da página em geral */
+body {
+    font-family: 'Trebuchet MS';
+    background-image: linear-gradient(150deg, rgb(0, 255, 234), rgb(15, 15, 15));
+}
+
+/* estilização da minha tag div  */
+div {
+    background-color: rgba(255, 0, 212, 0.452);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    border-radius: 19px;
+    color: rgb(0, 0, 0);
+}
+
+/* espaçamento e borda da minha tag input */
+input {
+    padding: 15px;
+    border: none;
+    font-size: 14px;
+    font-family: 'Trebuchet MS';
+}
+
+/* estilização de fontes cores margem e bordas das minhas tags buttons */
+.vini {
+    background-color: #fff;
+    padding: 2px 4px;
+    border-radius: 6px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-family: 'Trebuchet MS';
+    right: 10px;
+    transition: 0.5s;
+    border-color: #bbff00;
+}
+
+/* estilização de quando passa o cursor do mauser em cima da minha tag button */
+.vini:hover {
+    background-color: #bbff00;
+    cursor: pointer;
+}
+
+/* estilização do meu button da class vinny */
+.vinny {
+    background-color: #fff;
+    padding: 2px 4px;
+    border-radius: 6px;
+    color: #000;
+    font-size: 14px;
+    font-family: 'Trebuchet MS';
+    right: 10px;
+    transition: 0.5s;
+    border-color: #bbff00;
+}
+
+
+/* estilização do meu button da class vinny */
+.vinny:hover {
+    background-color: #bbff00;
+    cursor: pointer;
+}
